@@ -1,6 +1,6 @@
 # 终末地 · BAKER — DSH 皮肤
 
-把 [DSH](https://github.com/) Web GUI 改造成《明日方舟：终末地》现场终端的纯 CSS 皮肤：BAKER 会话界面（青色标头竖条、信号黄选中行、切角控制台卡片、白色胶囊输入条、磨砂灰聊天底板）+ 工业语汇壳层（细网格、斜纹信号条、等宽微标签）。浅色 / 深色共用同一套夜航终端配色。
+把 [DSH](https://github.com/) Web GUI 改造成《明日方舟：终末地》现场终端的纯 CSS 皮肤：BAKER 会话界面（青色标头竖条、信号黄选中行、切角控制台卡片、白色胶囊输入条、磨砂灰聊天底板）+ 工业语汇壳层（细网格、斜纹信号条、等宽微标签）。浅色 / 深色共用同一套终端配色。
 
 ## 安装
 
@@ -24,4 +24,10 @@ skill 文件放到 `$DSH_HOME/skills/<名称>/SKILL.md` 即可被 Agent 加载�
 
 ## 预览
 
-见包内 `preview/light.png` 与 `preview/dark.png`。
+<img width="2547" height="1243" alt="v0 8 0-1" src="https://github.com/user-attachments/assets/59597cb2-4d46-4e97-970c-b0ef9f69671f" />
+<img width="2559" height="1259" alt="v0 8 0-2" src="https://github.com/user-attachments/assets/dc2c7176-5598-4899-a680-db1500c09ced" />
+<img width="2559" height="1254" alt="v0 8 0-3" src="https://github.com/user-attachments/assets/4b7f4156-1fbf-4cae-aec3-ad07a0f4b257" />
+<img width="2559" height="1248" alt="v0 8 0-4" src="https://github.com/user-attachments/assets/6bc8b16d-683a-488d-a64d-5a9f3e522401" />
+
+
+

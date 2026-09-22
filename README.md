@@ -1,6 +1,6 @@
 # 终末地 · BAKER — DSH 皮肤
 
-把 [DSH]([https://github.com/](https://github.com/deepseek-ai/deepseek-harness/)) Web GUI 改造成《明日方舟：终末地》现场终端的纯 CSS 皮肤。
+把 [DSH](https://github.com/deepseek-ai/deepseek-harness/) Web GUI 改造成《明日方舟：终末地》现场终端的纯 CSS 皮肤。
 不是简单换色：会话区按 BAKER 通讯界面整套重做，其余壳层与常见插件页面按终末地工业语汇补齐。
 浅色 / 深色共用同一套终端配色。
 
@@ -43,4 +43,5 @@ skill 文件放到 `$DSH_HOME/skills/<名称>/SKILL.md` 即可被 Agent 加载�
 <img width="2559" height="1259" alt="v0 8 0-2" src="https://github.com/user-attachments/assets/44769e12-9cb2-4b4d-a34c-15776b0dc67b" />
 <img width="2559" height="1254" alt="v0 8 0-3" src="https://github.com/user-attachments/assets/8ac0348a-a152-44b3-9cd7-77a3a3c62645" />
 <img width="2559" height="1248" alt="v0 8 0-4" src="https://github.com/user-attachments/assets/cffe1d02-1219-4bfc-b735-a335d99e70f8" />
+
 

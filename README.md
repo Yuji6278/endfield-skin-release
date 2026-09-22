@@ -13,7 +13,7 @@
 
 ## 前置要求
 
-- 本皮肤依赖 [dsh-web](https://github.com/deepseek-ai/deepseek-harness/) 的**皮肤 / 皮肤中心**（`packages/dsh-skins` / `packages/skins`）提供加载与应用能力；DSH 原生不识别 `$DSH_HOME/skins/`，没有皮肤中心就无法安装。
+- 本皮肤依赖 [dsh-web](https://github.com/zhu1090093659/dsh-web) 的**皮肤 / 皮肤中心**（`packages/dsh-skins` / `packages/skins`）提供加载与应用能力；DSH 原生不识别 `$DSH_HOME/skins/`，没有皮肤中心就无法安装。
 - **推荐直接在 `dsh-web-all` 的基础上安装本皮肤**：`dsh-web-all` 是含皮肤中心在内的全家桶聚合包，装完即可应用；本皮肤对全家桶内各插件页面的适配也都能完整生效。
 - 已单独安装皮肤中心插件的用户，可跳过聚合包，按下面的手动步骤安装。
 

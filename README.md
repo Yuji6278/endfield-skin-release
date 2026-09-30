@@ -8,10 +8,10 @@
 
 点击图片查看完整尺寸。
 
-<img width="2547" height="1243" alt="v0 8 0-1" src="https://github.com/user-attachments/assets/0b0876f1-f404-4168-b82a-61e6ad270e5d" />
-<img width="2559" height="1259" alt="v0 8 0-2" src="https://github.com/user-attachments/assets/44769e12-9cb2-4b4d-a34c-15776b0dc67b" />
-<img width="2559" height="1254" alt="v0 8 0-3" src="https://github.com/user-attachments/assets/8ac0348a-a152-44b3-9cd7-77a3a3c62645" />
-<img width="2559" height="1248" alt="v0 8 0-4" src="https://github.com/user-attachments/assets/cffe1d02-1219-4bfc-b735-a335d99e70f8" />
+<img width="2559" height="1245" alt="v0 9 0-1" src="preview/v0.9.0-1.png" />
+<img width="2559" height="1253" alt="v0 9 0-2" src="preview/v0.9.0-2.png" />
+<img width="2559" height="1230" alt="v0 9 0-3" src="preview/v0.9.0-3.png" />
+<img width="2559" height="1256" alt="v0 9 0-4" src="preview/v0.9.0-4.png" />
 
 ## 这个皮肤具体做了什么
 
@@ -59,12 +59,20 @@ skill 文件放到 `$DSH_HOME/skills/<名称>/SKILL.md` 即可被 Agent 加载�
 
 ## 兼容性
 
-- 平台：Web
+- 平台：Web / 桌面端（Electron，同一份皮肤文件）
 - 依赖：dsh-web 皮肤中心（`packages/dsh-skins` / `packages/skins`）或 `dsh-web-all`
 - 浏览器：纯 CSS 皮肤，Chromium 系通用；`:has()` / `color-mix()` 需要较新内核（Chromium 105+ / 116+）
-- 最近验证日期：2026-09-22（v0.8.0 发布，门禁全绿）
+- 最近验证日期：2026-09-30（v0.9.0；本轮针对 dsh 0.2.0-rc.2 重新适配，web 端实测，桌面端未实测）
 
 ## 更新日志
+
+### v0.9.0 — 2026-09-30
+
+- 适配 dsh 0.2.0-rc.2：侧栏六行描边统一（原先只有自带 `data-dsh-part="sidebar-entry"` 的三行吃到描边，现按导航行类名统一成六行 h38 / 1px 描边 / 8px 圆角 / 行距 48）。
+- 桌面端（Electron）适配：会话区底板、思考卡、右侧栏底板在桌面端复活（web / desktop 两套 CSS Module 哈希并联，并补 `data-dsh-surface` 双锚）。
+- 修「任务期间悬浮发送键，消息区 + 输入卡整体上窜」：输入卡的磨砂改挂到无子元素的伪元素上，不再给应用挂在卡内的 fixed 悬浮气泡造包含块。
+- 修「思考卡展开后，折叠行叠在正文上」：取消思考卡折叠行的吸顶（sticky），行随卡片一起滚动，展开时正文不再从行底下透出来。
+- 各种扫描出的 hover / 选中态补齐（菜单行、设置页插件行、技能行等）。
 
 ### v0.8.0 — 2026-09-22
 

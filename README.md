@@ -62,7 +62,7 @@ skill 文件放到 `$DSH_HOME/skills/<名称>/SKILL.md` 即可被 Agent 加载�
 - 平台：Web / 桌面端（Electron，同一份皮肤文件）
 - 依赖：dsh-web 皮肤中心（`packages/dsh-skins` / `packages/skins`）或 `dsh-web-all`
 - 浏览器：纯 CSS 皮肤，Chromium 系通用；`:has()` / `color-mix()` 需要较新内核（Chromium 105+ / 116+）
-- 最近验证日期：2026-09-30（v0.9.0；本轮针对 dsh 0.2.0-rc.2 重新适配，web 端实测，桌面端未实测）
+- 最近验证日期：2026-09-30（v0.9.0；本轮针对 dsh 0.2.0-rc.2 重新适配，web 端、桌面端均已实测）
 
 ## 更新日志
 
